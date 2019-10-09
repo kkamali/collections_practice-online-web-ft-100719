@@ -14,6 +14,18 @@ def sort_array_desc(array)
   end
 end
 
+def sort_array_char_count(array)
+  array.sort do |a, b|
+    if a.length == b.length
+      0
+    elsif a < b
+      -1
+    elsif a > b
+      1
+    end
+  end
+end
+
 def swap_elements(array)
   temp = array[1]
   array[1] = array[2]
