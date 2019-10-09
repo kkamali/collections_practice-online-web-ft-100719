@@ -46,3 +46,7 @@ def kesha_maker(array)
   end
   modified
 end
+
+def find_a(array)
+  array.select{}
+end
