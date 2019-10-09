@@ -39,5 +39,6 @@ end
 
 def kesha_maker(array)
   modified = []
+  array.each{|word| modified << word[2] = "$"}
   modified
 end
