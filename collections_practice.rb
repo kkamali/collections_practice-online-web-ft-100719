@@ -54,5 +54,5 @@ def find_a(array)
 end
 
 def sum_array(array)
-  
+  array.reduce(0) {|sum, num| sum + num}
 end
