@@ -56,3 +56,5 @@ end
 def sum_array(array)
   array.reduce(0) {|sum, num| sum + num}
 end
+
+def 
