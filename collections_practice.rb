@@ -57,4 +57,6 @@ def sum_array(array)
   array.reduce(0) {|sum, num| sum + num}
 end
 
-def 
+def add_s(array)
+  array.each_with_index.collect{|word, index| element << "s" unless index == 1}
+end
